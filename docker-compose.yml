@@ -2,11 +2,11 @@ version: '3'
 services:
   go:
     build: ./docker
-    command: /bin/sh -c "go run ./src/main.go" --port 6060
+    command: /bin/sh -c "go run ./src/main.go" 
     stdin_open: true
     tty: true
     volumes:
-      - .:/go/src/github.com/mizu-ryo/echo-sam1
+      - .:/go/src/github.com/NUTMEG-hackathon/echo-tree-api
     ports:
       - 8888:8888
     depends_on:
