@@ -5,7 +5,7 @@ import (
 	"fmt"
 //    "strconv"
 	"github.com/labstack/echo"
-	"github.com/mizu-ryo/echo-sam1/src/model"
+  "github.com/NUTMEG-hackathon/echo-tree-api/src/model"
 )
 
 

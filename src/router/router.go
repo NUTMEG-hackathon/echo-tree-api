@@ -3,7 +3,7 @@ package router
 import (
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-	"github.com/mizu-ryo/echo-sam1/src/controller"
+  "github.com/NUTMEG-hackathon/echo-tree-api/src/controller"
 )
 
 func NewRouter() *echo.Echo {

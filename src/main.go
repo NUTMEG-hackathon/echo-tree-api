@@ -1,7 +1,7 @@
 package main
 
 import (
-  "github.com/mizu-ryo/echo-sam1/src/router"
+  "github.com/NUTMEG-hackathon/echo-tree-api/src/router"
 )
 
 func main() {

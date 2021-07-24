@@ -1,14 +1,14 @@
 package controller
 
 import (
-    "net/http"
-		"time"
+  "net/http"
+	"time"
 
-    "github.com/dgrijalva/jwt-go"
-    "github.com/labstack/echo"
-    "github.com/labstack/echo/middleware"
+  "github.com/dgrijalva/jwt-go"
+  "github.com/labstack/echo"
+  "github.com/labstack/echo/middleware"
 
-    "github.com/mizu-ryo/echo-sam1/src/model"
+  "github.com/NUTMEG-hackathon/echo-tree-api/src/model"
 )
 
 type jwtCustomClaims struct {

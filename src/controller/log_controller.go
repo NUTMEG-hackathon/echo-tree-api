@@ -1,9 +1,9 @@
 package controller
 
 import (
-    "net/http"
-    "github.com/labstack/echo"
-    "github.com/mizu-ryo/echo-sam1/src/model"
+  "net/http"
+  "github.com/labstack/echo"
+  "github.com/NUTMEG-hackathon/echo-tree-api/src/model"
 )
 
 

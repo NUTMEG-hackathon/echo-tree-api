@@ -1,12 +1,12 @@
 package controller
 
 import (
-    "net/http"
-    "math/rand"
+  "net/http"
+  "math/rand"
  //   "fmt"
 
-    "github.com/labstack/echo"
-    "github.com/mizu-ryo/echo-sam1/src/model"
+  "github.com/labstack/echo"
+  "github.com/NUTMEG-hackathon/echo-tree-api/src/model"
 )
 
 
